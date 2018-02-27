@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<title>index</title>
+</head>
+<body>
+Single file upload:
+<form action="/singleFileUpload" method="post" enctype="multipart/form-data">
+	<input type="file" name="file">
+	<input type="submit" value="Uplaod Single File">
+</form>
+<hr/>
+Multiple file upload:
+<form action="/multiFileUpload" method="post" enctype="multipart/form-data">
+	<input type="file" name="files">
+	<input type="file" name="files">
+	<input type="submit" value="Uplaod All Files">
+</form>
+
+</body>
+</html>
